@@ -1,0 +1,7 @@
+<h1>チャットルーム</h1>
+
+<% @messages.each do |message| %>
+<p><%= message.name %> >> <%= message.content %></p>
+<% end %>
+
+<p><%= link_to "メッセージ作成", new_room_path %></p>
