@@ -1,9 +1,9 @@
 <h1>メッセージの入力</h1>
 
 <%= form_for Message.new do |f| %>
-  <%= f.label :name %><br>
-  <%= f.text_field :name %><br>
-  <%= f.label :content %><br>
-  <%= f.text_field :content %><br>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :content %>
+  <%= f.text_area :content %>
   <%= f.submit %>
 <% end %>
