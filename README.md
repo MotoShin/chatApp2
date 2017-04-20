@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* OS
+OS X El Capitan
+バーション 10.11.6
 
-Things you may want to cover:
+* Version
+ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin13]
+Rails 5.0.2
 
-* Ruby version
+* 使い方
+・メッセージ作成のリンクをクリックしてメッセージ作成画面へ移行
+・名前とメッセージを入力して"Create Message"ボタンをクリックすることで
+　チャットルーム画面に戻りメッセージが更新される。
+・「メッセージの入力」画面でなにも入力せずチャットルームに戻りたい場合は
+　「チャットルームへ」のリンクをクリックすることでチャットルームにもどる
+　ことができる。
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*　注意点、欠点
+・自分以外のクライアントがメッセージを投稿した場合、自身のブラウザのペー
+　ジを更新しなければ他のクライアントのメッセージが表示されない
